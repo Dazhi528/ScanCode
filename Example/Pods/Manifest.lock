@@ -1,0 +1,16 @@
+PODS:
+  - ScanCode (1.0.2)
+
+DEPENDENCIES:
+  - ScanCode (from `../`)
+
+EXTERNAL SOURCES:
+  ScanCode:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ScanCode: d4af5a753c1a275c0f939d81bb48bc45e3bd969e
+
+PODFILE CHECKSUM: 215689f1a9e3593bff9b61005cbc525b7c7cae70
+
+COCOAPODS: 1.10.0

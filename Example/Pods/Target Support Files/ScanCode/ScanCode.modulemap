@@ -1,0 +1,6 @@
+framework module ScanCode {
+  umbrella header "ScanCode-umbrella.h"
+
+  export *
+  module * { export * }
+}
