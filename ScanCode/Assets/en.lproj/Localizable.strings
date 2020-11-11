@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Pods
+
+  Created by wangzezhi on 2020/11/10.
+  
+*/
+"libscan_close" = "ScanClose";
+"libscan_lighton" = "LightOn";
+"libscan_lightoff" = "LightOff";
+"libscan_fail" = "Scan failed";
+
