@@ -1,7 +1,9 @@
+source 'https://cdn.cocoapods.org/'
+install! 'cocoapods', :generate_multiple_pod_projects => true
 use_frameworks!
 platform :ios, '10.0'
 
 target 'ScanCode_Example' do
-  pod 'ScanCode', :path => '../' #调试用
-#pod 'ScanCode' '~> 1.0.1' #发布后测试用
+#  pod 'ScanCode', :path => '../' #调试用
+  pod 'ScanCode' #发布后测试用
 end
