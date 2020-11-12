@@ -1,6 +1,5 @@
 # ScanCode
 
-[![CI Status](https://img.shields.io/travis/Dazhi528/ScanCode.svg?style=flat)](https://travis-ci.org/Dazhi528/ScanCode)
 [![Version](https://img.shields.io/cocoapods/v/ScanCode.svg?style=flat)](https://cocoapods.org/pods/ScanCode)
 [![License](https://img.shields.io/cocoapods/l/ScanCode.svg?style=flat)](https://cocoapods.org/pods/ScanCode)
 [![Platform](https://img.shields.io/cocoapods/p/ScanCode.svg?style=flat)](https://cocoapods.org/pods/ScanCode)
