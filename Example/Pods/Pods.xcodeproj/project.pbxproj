@@ -7,38 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163E893132EBD522357FF0AD134AD519 /* Scan.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5228F1EAE6F0AEFFE495F4C16CC1AEFA /* Scan.xcassets */; };
+		1B4CE8EE8E135DE18D0B6E520D8205D8 /* ScanCode.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 26EC79B919A561911A68CD06BAD79485 /* ScanCode.bundle */; };
+		3750FD837C45C5CECC83E96A20920C12 /* ScanCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7897615593326A712BC6513EE81CC16 /* ScanCode-dummy.m */; };
+		376A1966C22E19FDD60BB5E17767DF31 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F74AA1D7AE8398620FAFF722FB8C1AA5 /* Localizable.strings */; };
 		593EE66FBF693A6D54D08996AC3251BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5B0C3D57E20B291C21011D76022075CC /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F76772BA2071F14CBF5C831E2D5E413E /* zh-Hant.lproj */; };
+		7F488E0277A72B9CAD3E04049FA82271 /* ScanCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F855077B37EB5C89D0892FEA3270BB /* ScanCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		930E79FCD7BEF12A5DF61A91F6275A74 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23410A6A17A5F08A1E824F236268458 /* ScanViewController.swift */; };
 		C690299E137C85CA75AF3467DE0A1DB1 /* Pods-ScanCode_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A7BC5C1ECA8F95289DD5062816BFCC /* Pods-ScanCode_Example-dummy.m */; };
+		D9C6929690CD0B96E398BB321EF4B35B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F4A6CE9DDF1390B43225C398F835A2EC /* Pods-ScanCode_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FFBAC0B1C881CC6BAF38D217AE04EB4 /* Pods-ScanCode_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9EA5AF3E63628B65A91F457D5AED73DE /* PBXContainerItemProxy */ = {
+		1D0FFE69C713AC690F3762F9D177C6D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 721EE1F305D1B32338DE17A49970866A /* ScanCode.xcodeproj */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 429F7857C38801AF5A6F20A9FD8F6B69;
+			remoteGlobalIDString = D488D683FEDA42729493E01F6B74E876;
 			remoteInfo = ScanCode;
+		};
+		B7EF324ECA93B06678FD1780DB849D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8F833D107B4184AC589C4FC30F30DAF;
+			remoteInfo = "ScanCode-ScanCode";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18F855077B37EB5C89D0892FEA3270BB /* ScanCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScanCode-umbrella.h"; sourceTree = "<group>"; };
+		26EC79B919A561911A68CD06BAD79485 /* ScanCode.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanCode.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		345D145ADD2D15C2DA03114620B16932 /* ScanCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScanCode.debug.xcconfig; sourceTree = "<group>"; };
+		35AA5294288CB50D60CA1FABF27F15E1 /* ScanCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScanCode.release.xcconfig; sourceTree = "<group>"; };
+		36830988EF1B4E09226BDEB21EA298DC /* ScanCode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScanCode-Info.plist"; sourceTree = "<group>"; };
+		3B42055FCAD4250A40EAE995596DA0D0 /* ResourceBundle-ScanCode-ScanCode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ScanCode-ScanCode-Info.plist"; sourceTree = "<group>"; };
 		3FFBAC0B1C881CC6BAF38D217AE04EB4 /* Pods-ScanCode_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScanCode_Example-umbrella.h"; sourceTree = "<group>"; };
 		41453F582F620E126BE809994C88458D /* Pods-ScanCode_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScanCode_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5228F1EAE6F0AEFFE495F4C16CC1AEFA /* Scan.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Scan.xcassets; path = ScanCode/Assets/Scan.xcassets; sourceTree = "<group>"; };
+		53D4FE15ACE6AD923D1A133105C8DBB6 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		545C4F6CF7F98397246CC9009052D270 /* Pods-ScanCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScanCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		721EE1F305D1B32338DE17A49970866A /* ScanCode */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ScanCode; path = ScanCode.xcodeproj; sourceTree = "<group>"; };
+		6AF06D6249515B99A05DF55B36C40C69 /* ScanCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScanCode.modulemap; sourceTree = "<group>"; };
+		6F24685D5EDB2A77455C1EBBC8532B4B /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		840D15546D3C1998FE125DB47E32AA24 /* Pods-ScanCode_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScanCode_Example-Info.plist"; sourceTree = "<group>"; };
 		86BA0B01906492EA2E0E1C7AEAEF1C76 /* Pods-ScanCode_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScanCode_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8ADFDD4116CE9325D6E1DACE25072EBB /* Pods-ScanCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScanCode_Example.release.xcconfig"; sourceTree = "<group>"; };
 		97A7BC5C1ECA8F95289DD5062816BFCC /* Pods-ScanCode_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScanCode_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A23410A6A17A5F08A1E824F236268458 /* ScanViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScanViewController.swift; path = ScanCode/Classes/ScanViewController.swift; sourceTree = "<group>"; };
 		AC1DE2CD566C57E3894E785BC990ADA9 /* Pods-ScanCode_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScanCode_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B78CD2B354F2165E331A0D801F861E20 /* Pods_ScanCode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScanCode_Example.framework; path = "Pods-ScanCode_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7897615593326A712BC6513EE81CC16 /* ScanCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScanCode-dummy.m"; sourceTree = "<group>"; };
+		B78CD2B354F2165E331A0D801F861E20 /* Pods_ScanCode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScanCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA81D77F2F3DA8EF47F290F61C9A9477 /* ScanCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScanCode-prefix.pch"; sourceTree = "<group>"; };
+		C41F9DD45C07C20453557B8766B10AAD /* ScanCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScanCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58CF4D71FDD68B01BEB708922B5252B /* ScanCode.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ScanCode.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C65C0469F0688934728A275C77C92EF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C7FEA119324893DCED69F7AB9B3F91FD /* Pods-ScanCode_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScanCode_Example.modulemap"; sourceTree = "<group>"; };
+		D4D5847B8934B97CC1D6088642672E7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F76772BA2071F14CBF5C831E2D5E413E /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant.lproj"; path = "ScanCode/Assets/zh-Hant.lproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		03551F61BEE7E865529E9096CB582F25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDE973B7BE979EB1BB7C13F23F69750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C6929690CD0B96E398BB321EF4B35B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6B3261B8EF90C53F640F0AA746A4C4C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,6 +97,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25C45C728CA028CAF5DBCA853F72C6F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B78CD2B354F2165E331A0D801F861E20 /* Pods_ScanCode_Example.framework */,
+				26EC79B919A561911A68CD06BAD79485 /* ScanCode.bundle */,
+				C41F9DD45C07C20453557B8766B10AAD /* ScanCode.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31E713A56700AC784F66320AD544D5FA /* ScanCode */ = {
+			isa = PBXGroup;
+			children = (
+				F74AA1D7AE8398620FAFF722FB8C1AA5 /* Localizable.strings */,
+				5228F1EAE6F0AEFFE495F4C16CC1AEFA /* Scan.xcassets */,
+				A23410A6A17A5F08A1E824F236268458 /* ScanViewController.swift */,
+				F76772BA2071F14CBF5C831E2D5E413E /* zh-Hant.lproj */,
+				4DE3014D4E664A05FD7365F742F3CFB0 /* Pod */,
+				DD149EFCC1CE6C2704C7CD3E7F058B22 /* Support Files */,
+			);
+			name = ScanCode;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4DE3014D4E664A05FD7365F742F3CFB0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D4D5847B8934B97CC1D6088642672E7C /* LICENSE */,
+				C65C0469F0688934728A275C77C92EF3 /* README.md */,
+				C58CF4D71FDD68B01BEB708922B5252B /* ScanCode.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,29 +147,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BD0817EC6CDB0B6C57B734BAD85FCB86 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B78CD2B354F2165E331A0D801F861E20 /* Pods_ScanCode_Example.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CE735359F1983EA7DE64403CD44337C7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				721EE1F305D1B32338DE17A49970866A /* ScanCode */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D8FC52B4C7525041921CE990694E7D5D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				CE735359F1983EA7DE64403CD44337C7 /* Pods */,
-				BD0817EC6CDB0B6C57B734BAD85FCB86 /* Products */,
+				25C45C728CA028CAF5DBCA853F72C6F5 /* Products */,
 				7D26C0D0047E87BCFF4C347451A724F3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +164,14 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8FC52B4C7525041921CE990694E7D5D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31E713A56700AC784F66320AD544D5FA /* ScanCode */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		DC7C5D642D584546A6F2B5EB7203226A /* Pods-ScanCode_Example */ = {
@@ -118,9 +191,33 @@
 			path = "Target Support Files/Pods-ScanCode_Example";
 			sourceTree = "<group>";
 		};
+		DD149EFCC1CE6C2704C7CD3E7F058B22 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B42055FCAD4250A40EAE995596DA0D0 /* ResourceBundle-ScanCode-ScanCode-Info.plist */,
+				6AF06D6249515B99A05DF55B36C40C69 /* ScanCode.modulemap */,
+				B7897615593326A712BC6513EE81CC16 /* ScanCode-dummy.m */,
+				36830988EF1B4E09226BDEB21EA298DC /* ScanCode-Info.plist */,
+				BA81D77F2F3DA8EF47F290F61C9A9477 /* ScanCode-prefix.pch */,
+				18F855077B37EB5C89D0892FEA3270BB /* ScanCode-umbrella.h */,
+				345D145ADD2D15C2DA03114620B16932 /* ScanCode.debug.xcconfig */,
+				35AA5294288CB50D60CA1FABF27F15E1 /* ScanCode.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ScanCode";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		06C1ACA061B486087DAF632FBE03668A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F488E0277A72B9CAD3E04049FA82271 /* ScanCode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		23066D88009B7947CBBC9C17E143C3F6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,12 +241,48 @@
 			buildRules = (
 			);
 			dependencies = (
-				646FDF943F6C4CF51035F046E6C13D30 /* PBXTargetDependency */,
+				40FDD37D2D5053388C9FC9207488CE9D /* PBXTargetDependency */,
 			);
 			name = "Pods-ScanCode_Example";
 			productName = "Pods-ScanCode_Example";
 			productReference = B78CD2B354F2165E331A0D801F861E20 /* Pods_ScanCode_Example.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		D488D683FEDA42729493E01F6B74E876 /* ScanCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2552CC04A1302093AA4E7E2BC0F014E /* Build configuration list for PBXNativeTarget "ScanCode" */;
+			buildPhases = (
+				06C1ACA061B486087DAF632FBE03668A /* Headers */,
+				584355D1E8F2C5438B3FBCA744AE6CC7 /* Sources */,
+				4CDE973B7BE979EB1BB7C13F23F69750 /* Frameworks */,
+				C6C2F70702C83B15B82FCD96CA80469A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA157B5C38BDEC3B41296D31B1B0A1FD /* PBXTargetDependency */,
+			);
+			name = ScanCode;
+			productName = ScanCode;
+			productReference = C41F9DD45C07C20453557B8766B10AAD /* ScanCode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8F833D107B4184AC589C4FC30F30DAF /* ScanCode-ScanCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1D28DD2100B247D2C68245FFE8B9184 /* Build configuration list for PBXNativeTarget "ScanCode-ScanCode" */;
+			buildPhases = (
+				B11CD292CECE38637CA5F8342582A033 /* Sources */,
+				03551F61BEE7E865529E9096CB582F25 /* Frameworks */,
+				080AF5D6B4DD0C2152148DB4E74601DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScanCode-ScanCode";
+			productName = "ScanCode-ScanCode";
+			productReference = 26EC79B919A561911A68CD06BAD79485 /* ScanCode.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -167,23 +300,39 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = BD0817EC6CDB0B6C57B734BAD85FCB86 /* Products */;
+			productRefGroup = 25C45C728CA028CAF5DBCA853F72C6F5 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProjectRef = 721EE1F305D1B32338DE17A49970866A /* ScanCode */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				C25E99FBCD1D67DA1C20C36AF97CCE1C /* Pods-ScanCode_Example */,
+				D488D683FEDA42729493E01F6B74E876 /* ScanCode */,
+				F8F833D107B4184AC589C4FC30F30DAF /* ScanCode-ScanCode */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		080AF5D6B4DD0C2152148DB4E74601DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376A1966C22E19FDD60BB5E17767DF31 /* Localizable.strings in Resources */,
+				163E893132EBD522357FF0AD134AD519 /* Scan.xcassets in Resources */,
+				5B0C3D57E20B291C21011D76022075CC /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C2F70702C83B15B82FCD96CA80469A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4CE8EE8E135DE18D0B6E520D8205D8 /* ScanCode.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F7D66ECC290C7844597E8401C2DE5B96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -194,6 +343,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		584355D1E8F2C5438B3FBCA744AE6CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3750FD837C45C5CECC83E96A20920C12 /* ScanCode-dummy.m in Sources */,
+				930E79FCD7BEF12A5DF61A91F6275A74 /* ScanViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90D27F5D2A1998EA4F04F3300926DFB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -202,15 +360,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B11CD292CECE38637CA5F8342582A033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		646FDF943F6C4CF51035F046E6C13D30 /* PBXTargetDependency */ = {
+		40FDD37D2D5053388C9FC9207488CE9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ScanCode;
-			targetProxy = 9EA5AF3E63628B65A91F457D5AED73DE /* PBXContainerItemProxy */;
+			target = D488D683FEDA42729493E01F6B74E876 /* ScanCode */;
+			targetProxy = 1D0FFE69C713AC690F3762F9D177C6D1 /* PBXContainerItemProxy */;
+		};
+		CA157B5C38BDEC3B41296D31B1B0A1FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ScanCode-ScanCode";
+			target = F8F833D107B4184AC589C4FC30F30DAF /* ScanCode-ScanCode */;
+			targetProxy = B7EF324ECA93B06678FD1780DB849D9C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F74AA1D7AE8398620FAFF722FB8C1AA5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53D4FE15ACE6AD923D1A133105C8DBB6 /* Localizable.strings */,
+				6F24685D5EDB2A77455C1EBBC8532B4B /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = ScanCode/Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		21BA77E604ACE6FF3BF8FC82610BB4DA /* Debug */ = {
@@ -280,6 +465,22 @@
 			};
 			name = Release;
 		};
+		7A33C287F5D3E2A6F07FEA979886515E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345D145ADD2D15C2DA03114620B16932 /* ScanCode.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ScanCode";
+				IBSC_MODULE = ScanCode;
+				INFOPLIST_FILE = "Target Support Files/ScanCode/ResourceBundle-ScanCode-ScanCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ScanCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -335,12 +536,41 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		97CAABCCD7AAE5BD7703199DEE1A8D7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345D145ADD2D15C2DA03114620B16932 /* ScanCode.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScanCode/ScanCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScanCode/ScanCode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScanCode/ScanCode.modulemap";
+				PRODUCT_MODULE_NAME = ScanCode;
+				PRODUCT_NAME = ScanCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -408,6 +638,53 @@
 			};
 			name = Debug;
 		};
+		D6A2B341715DE3ED93211258D3FF0096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AA5294288CB50D60CA1FABF27F15E1 /* ScanCode.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ScanCode";
+				IBSC_MODULE = ScanCode;
+				INFOPLIST_FILE = "Target Support Files/ScanCode/ResourceBundle-ScanCode-ScanCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ScanCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DD366DB58F0335A766E436F6D27CFA57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AA5294288CB50D60CA1FABF27F15E1 /* ScanCode.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScanCode/ScanCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScanCode/ScanCode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScanCode/ScanCode.modulemap";
+				PRODUCT_MODULE_NAME = ScanCode;
+				PRODUCT_NAME = ScanCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -425,6 +702,24 @@
 			buildConfigurations = (
 				21BA77E604ACE6FF3BF8FC82610BB4DA /* Debug */,
 				5D6417D769B975C66E62A214CC239842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1D28DD2100B247D2C68245FFE8B9184 /* Build configuration list for PBXNativeTarget "ScanCode-ScanCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A33C287F5D3E2A6F07FEA979886515E /* Debug */,
+				D6A2B341715DE3ED93211258D3FF0096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2552CC04A1302093AA4E7E2BC0F014E /* Build configuration list for PBXNativeTarget "ScanCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97CAABCCD7AAE5BD7703199DEE1A8D7D /* Debug */,
+				DD366DB58F0335A766E436F6D27CFA57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

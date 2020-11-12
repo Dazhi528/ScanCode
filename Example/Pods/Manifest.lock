@@ -1,16 +1,16 @@
 PODS:
-  - ScanCode (1.0.3)
+  - ScanCode (1.0.5)
 
 DEPENDENCIES:
-  - ScanCode
+  - ScanCode (from `../`)
 
-SPEC REPOS:
-  trunk:
-    - ScanCode
+EXTERNAL SOURCES:
+  ScanCode:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  ScanCode: 2b7163cc11cc04594be6cc3e91d0da21fe0adfda
+  ScanCode: 9686ae12a7ea0768a54c102cde17cd1aab15127f
 
-PODFILE CHECKSUM: 28b97a25a526d91523b41ffe6e60b206b2f4c406
+PODFILE CHECKSUM: 455f4ba2d96fe7696a16d34ee8fb6691cda5fe55
 
 COCOAPODS: 1.10.0

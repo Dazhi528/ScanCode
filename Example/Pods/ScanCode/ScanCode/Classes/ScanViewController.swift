@@ -178,14 +178,15 @@ public class ScanViewController: UIViewController {
         //可识别区域；注意看rectOfInterest，它以右上角为原点 并且rect的值是个比例，在[0,1]之间
         videoOutput.rectOfInterest = CGRect.init(x: (mBoxCentY - (mBoxWH/2))/kScreenHeight, y: 1 - (kScreenWidth + mBoxWH)/2/kScreenWidth, width: mBoxWH/kScreenHeight, height: mBoxWH/kScreenWidth)
         view.layer.addSublayer(preview)
-        //
-        self.view.addSubview(closeButton)
-        self.view.addSubview(torchButton)
     }
     
     //MARK: 生命周期--视图将于添加
     override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        //
+        self.view.addSubview(closeButton)
+        self.view.addSubview(torchButton)
+        //
         session.startRunning()
     }
     
