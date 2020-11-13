@@ -15,8 +15,9 @@ public class ScanViewController: UIViewController {
     private let mBoxCentY : CGFloat = kScreenHeight * 0.4
     // Bundle资源
     private lazy var mBundle: Bundle = {
-        let strBundlePath = Bundle(for: type(of: self))
-            .path(forResource: "ScanCode", ofType: "bundle") ?? ""
+        let strBundlePath=Bundle.main.path(forResource: "ScanCode",
+                                           ofType: "framework",
+                                           inDirectory: "Frameworks") ?? ""
         return Bundle(path: strBundlePath) ?? Bundle.main
     }()
     // 扫描会话

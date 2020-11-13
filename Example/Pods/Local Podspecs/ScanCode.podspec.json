@@ -1,6 +1,6 @@
 {
   "name": "ScanCode",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "summary": "IOS qrcode and barcode scan",
   "description": "IOS qrcode and barcode scan(IOS版的二维码和条码扫描识别)",
   "homepage": "https://github.com/Dazhi528/ScanCode",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Dazhi528/ScanCode.git",
-    "tag": "1.0.5"
+    "tag": "1.0.7"
   },
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES",
@@ -27,10 +27,8 @@
   },
   "swift_versions": "5.0",
   "source_files": "ScanCode/Classes/**/*",
-  "resource_bundles": {
-    "ScanCode": [
-      "ScanCode/Assets/**/*"
-    ]
-  },
+  "resources": [
+    "ScanCode/Assets/**/*"
+  ],
   "swift_version": "5.0"
 }
